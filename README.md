@@ -50,6 +50,7 @@ The primary dataset for this analysis is sourced from the DataSaudi platform, sp
 **GASTAT Dwelling Electrical Energy Consumption Dataset:**
 - **Year:** Time period of electricity consumption.
 - **Province:** Regional classification.
+- **Subregion:** Geographic classification.
 - **Season:** Seasonal consumption segmentation.
 - **Consumption:** Total electricity consumption (MW).
 - **Cost:** Associated cost of electricity.
