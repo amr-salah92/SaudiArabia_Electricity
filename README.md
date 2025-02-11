@@ -83,8 +83,7 @@ Based on the insights derived from the analysis, we recommend the following acti
 
 ## Technical Details
 
-For this analysis, we utilized Excel and Tableau. Here is the link to the interactive Tableau dashboard: Tableau Dashboard. These tools were used for data cleaning, transformation, analysis, and visualization.
-
+For this analysis, we utilized Excel and Tableau. Here is the link to the interactive Tableau dashboard: [Tableau Dashboard](https://public.tableau.com/app/profile/amr.salah6779/viz/electricity_17392262053380/Dashboard1#1). These tools were used for data cleaning, transformation, analysis, and visualization.
 
 ## Assumptions and Caveats
 
