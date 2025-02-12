@@ -1,0 +1,433 @@
+﻿Megawatts;Consumption Type ID;Consumption Type;Subregion ID;Subregion;Year
+2326012;1;Agreculture;1;Middle;2005
+2476127;1;Agreculture;1;Middle;2006
+2119140;1;Agreculture;1;Middle;2007
+2355609;1;Agreculture;1;Middle;2008
+3974335;1;Agreculture;1;Middle;2009
+2469305;1;Agreculture;1;Middle;2010
+2561642.1;1;Agreculture;1;Middle;2011
+2773800;1;Agreculture;1;Middle;2012
+2827004.199;1;Agreculture;1;Middle;2013
+2953608.332;1;Agreculture;1;Middle;2014
+3284676.259;1;Agreculture;1;Middle;2015
+3470114.086;1;Agreculture;1;Middle;2016
+3396840.034;1;Agreculture;1;Middle;2017
+3106321.704;1;Agreculture;1;Middle;2018
+3130364.314;1;Agreculture;1;Middle;2019
+3250986.028;1;Agreculture;1;Middle;2020
+3459457.176;1;Agreculture;1;Middle;2021
+3569307.29;1;Agreculture;1;Middle;2022
+475056;1;Agreculture;2;Eastern;2005
+524369;1;Agreculture;2;Eastern;2006
+547028;1;Agreculture;2;Eastern;2007
+572546;1;Agreculture;2;Eastern;2008
+581992;1;Agreculture;2;Eastern;2009
+615439;1;Agreculture;2;Eastern;2010
+641088.2;1;Agreculture;2;Eastern;2011
+739400;1;Agreculture;2;Eastern;2012
+742452.421;1;Agreculture;2;Eastern;2013
+823794.4117;1;Agreculture;2;Eastern;2014
+973951.6662;1;Agreculture;2;Eastern;2015
+919708.2781;1;Agreculture;2;Eastern;2016
+1003276.288;1;Agreculture;2;Eastern;2017
+904032.8383;1;Agreculture;2;Eastern;2018
+867270.6011;1;Agreculture;2;Eastern;2019
+921499.6723;1;Agreculture;2;Eastern;2020
+981564.7051;1;Agreculture;2;Eastern;2021
+1046146.339;1;Agreculture;2;Eastern;2022
+310849;1;Agreculture;3;Western;2005
+322232;1;Agreculture;3;Western;2006
+431311;1;Agreculture;3;Western;2007
+463884;1;Agreculture;3;Western;2008
+440533;1;Agreculture;3;Western;2009
+465741;1;Agreculture;3;Western;2010
+514058;1;Agreculture;3;Western;2011
+595500;1;Agreculture;3;Western;2012
+625887.096;1;Agreculture;3;Western;2013
+679316.717;1;Agreculture;3;Western;2014
+784320.9309;1;Agreculture;3;Western;2015
+870031.07;1;Agreculture;3;Western;2016
+897475.2246;1;Agreculture;3;Western;2017
+908318.2274;1;Agreculture;3;Western;2018
+874460.2598;1;Agreculture;3;Western;2019
+879486.9771;1;Agreculture;3;Western;2020
+918815.1407;1;Agreculture;3;Western;2021
+923028.1091;1;Agreculture;3;Western;2022
+52342;1;Agreculture;4;Southern ;2005
+57560;1;Agreculture;4;Southern ;2006
+70389;1;Agreculture;4;Southern ;2007
+69228;1;Agreculture;4;Southern ;2008
+65119;1;Agreculture;4;Southern ;2009
+69172;1;Agreculture;4;Southern ;2010
+68832;1;Agreculture;4;Southern ;2011
+82600;1;Agreculture;4;Southern ;2012
+94935.209;1;Agreculture;4;Southern ;2013
+120634.3093;1;Agreculture;4;Southern ;2014
+124584.1788;1;Agreculture;4;Southern ;2015
+120756.1992;1;Agreculture;4;Southern ;2016
+131978.2757;1;Agreculture;4;Southern ;2017
+120928.4449;1;Agreculture;4;Southern ;2018
+112706.6353;1;Agreculture;4;Southern ;2019
+113567.2761;1;Agreculture;4;Southern ;2020
+119832.2674;1;Agreculture;4;Southern ;2021
+113065.1255;1;Agreculture;4;Southern ;2022
+5095729;2;Commercial;1;Middle;2005
+5719504;2;Commercial;1;Middle;2006
+7110898;2;Commercial;1;Middle;2007
+7585332;2;Commercial;1;Middle;2008
+8002703;2;Commercial;1;Middle;2009
+9888478;2;Commercial;1;Middle;2010
+11503393.8;2;Commercial;1;Middle;2011
+12172000;2;Commercial;1;Middle;2012
+12612462.26;2;Commercial;1;Middle;2013
+14035005.18;2;Commercial;1;Middle;2014
+16824003.25;2;Commercial;1;Middle;2015
+17296606.36;2;Commercial;1;Middle;2016
+17030168.83;2;Commercial;1;Middle;2017
+16356172.57;2;Commercial;1;Middle;2018
+16333360.8;2;Commercial;1;Middle;2019
+15667773.68;2;Commercial;1;Middle;2020
+17524130.18;2;Commercial;1;Middle;2021
+19151594.96;2;Commercial;1;Middle;2022
+4214045;2;Commercial;2;Eastern;2005
+4779163;2;Commercial;2;Eastern;2006
+4707037;2;Commercial;2;Eastern;2007
+5175903;2;Commercial;2;Eastern;2008
+6021018;2;Commercial;2;Eastern;2009
+6581620;2;Commercial;2;Eastern;2010
+6766531.8;2;Commercial;2;Eastern;2011
+10508100;2;Commercial;2;Eastern;2012
+8216568.951;2;Commercial;2;Eastern;2013
+7992039.75;2;Commercial;2;Eastern;2014
+9090966.072;2;Commercial;2;Eastern;2015
+9154764.233;2;Commercial;2;Eastern;2016
+9622638.395;2;Commercial;2;Eastern;2017
+8665411.157;2;Commercial;2;Eastern;2018
+9156217.943;2;Commercial;2;Eastern;2019
+8446513.477;2;Commercial;2;Eastern;2020
+9017315.916;2;Commercial;2;Eastern;2021
+9869285.587;2;Commercial;2;Eastern;2022
+5397497;2;Commercial;3;Western;2005
+5625673;2;Commercial;3;Western;2006
+6601300;2;Commercial;3;Western;2007
+7367438;2;Commercial;3;Western;2008
+7985269;2;Commercial;3;Western;2009
+10596373;2;Commercial;3;Western;2010
+12026746.9;2;Commercial;3;Western;2011
+14001500;2;Commercial;3;Western;2012
+15289385.55;2;Commercial;3;Western;2013
+16333917.79;2;Commercial;3;Western;2014
+17901728.48;2;Commercial;3;Western;2015
+17998435.41;2;Commercial;3;Western;2016
+17936634.17;2;Commercial;3;Western;2017
+17151855.43;2;Commercial;3;Western;2018
+16614079.31;2;Commercial;3;Western;2019
+13224236.24;2;Commercial;3;Western;2020
+14828840.74;2;Commercial;3;Western;2021
+17165787.81;2;Commercial;3;Western;2022
+872702;2;Commercial;4;Southern ;2005
+949522;2;Commercial;4;Southern ;2006
+1020807;2;Commercial;4;Southern ;2007
+1237939;2;Commercial;4;Southern ;2008
+1595891;2;Commercial;4;Southern ;2009
+2243556;2;Commercial;4;Southern ;2010
+2710535.9;2;Commercial;4;Southern ;2011
+3127500;2;Commercial;4;Southern ;2012
+3381204.36;2;Commercial;4;Southern ;2013
+3580744.786;2;Commercial;4;Southern ;2014
+4263124.555;2;Commercial;4;Southern ;2015
+4343046.862;2;Commercial;4;Southern ;2016
+4461487.203;2;Commercial;4;Southern ;2017
+4909890.899;2;Commercial;4;Southern ;2018
+4716818.881;2;Commercial;4;Southern ;2019
+4181710.799;2;Commercial;4;Southern ;2020
+4659333.78;2;Commercial;4;Southern ;2021
+4797156.055;2;Commercial;4;Southern ;2022
+6361952;3;Governmental;1;Middle;2005
+7130417;3;Governmental;1;Middle;2006
+7584420;3;Governmental;1;Middle;2007
+8311176;3;Governmental;1;Middle;2008
+8474612;3;Governmental;1;Middle;2009
+9218486;3;Governmental;1;Middle;2010
+8758954.4;3;Governmental;1;Middle;2011
+9921200;3;Governmental;1;Middle;2012
+10376014.76;3;Governmental;1;Middle;2013
+11765526.62;3;Governmental;1;Middle;2014
+11298483.04;3;Governmental;1;Middle;2015
+11488891.43;3;Governmental;1;Middle;2016
+11391119.28;3;Governmental;1;Middle;2017
+11269449.23;3;Governmental;1;Middle;2018
+10998732.81;3;Governmental;1;Middle;2019
+10135874.94;3;Governmental;1;Middle;2020
+10694049.34;3;Governmental;1;Middle;2021
+9725415.523;3;Governmental;1;Middle;2022
+4420527;3;Governmental;2;Eastern;2005
+4842500;3;Governmental;2;Eastern;2006
+5314028;3;Governmental;2;Eastern;2007
+5078833;3;Governmental;2;Eastern;2008
+5782753;3;Governmental;2;Eastern;2009
+6639934;3;Governmental;2;Eastern;2010
+6843501.8;3;Governmental;2;Eastern;2011
+6938500;3;Governmental;2;Eastern;2012
+6938437.554;3;Governmental;2;Eastern;2013
+7234719.682;3;Governmental;2;Eastern;2014
+9048684.309;3;Governmental;2;Eastern;2015
+8649552.311;3;Governmental;2;Eastern;2016
+7549721.292;3;Governmental;2;Eastern;2017
+9966942.763;3;Governmental;2;Eastern;2018
+9713433.684;3;Governmental;2;Eastern;2019
+8157111.153;3;Governmental;2;Eastern;2020
+8370933.119;3;Governmental;2;Eastern;2021
+7891832.189;3;Governmental;2;Eastern;2022
+4716438;3;Governmental;3;Western;2005
+4725153;3;Governmental;3;Western;2006
+5635773;3;Governmental;3;Western;2007
+5580706;3;Governmental;3;Western;2008
+6288334;3;Governmental;3;Western;2009
+6651198;3;Governmental;3;Western;2010
+6050323.8;3;Governmental;3;Western;2011
+6676400;3;Governmental;3;Western;2012
+7148470.711;3;Governmental;3;Western;2013
+7815233.388;3;Governmental;3;Western;2014
+8537750.561;3;Governmental;3;Western;2015
+8606441.257;3;Governmental;3;Western;2016
+9112482.162;3;Governmental;3;Western;2017
+17006864.49;3;Governmental;3;Western;2018
+11919416.08;3;Governmental;3;Western;2019
+11872163.56;3;Governmental;3;Western;2020
+11717883.13;3;Governmental;3;Western;2021
+12482111.69;3;Governmental;3;Western;2022
+1176250;3;Governmental;4;Southern ;2005
+1306666;3;Governmental;4;Southern ;2006
+1267709;3;Governmental;4;Southern ;2007
+1486482;3;Governmental;4;Southern ;2008
+1702362;3;Governmental;4;Southern ;2009
+2004337;3;Governmental;4;Southern ;2010
+2268610.8;3;Governmental;4;Southern ;2011
+2552500;3;Governmental;4;Southern ;2012
+2920736.086;3;Governmental;4;Southern ;2013
+3195338.973;3;Governmental;4;Southern ;2014
+3910638.577;3;Governmental;4;Southern ;2015
+3974516.39;3;Governmental;4;Southern ;2016
+4393082.957;3;Governmental;4;Southern ;2017
+5350147.012;3;Governmental;4;Southern ;2018
+5121859.74;3;Governmental;4;Southern ;2019
+5075912.446;3;Governmental;4;Southern ;2020
+5454684.941;3;Governmental;4;Southern ;2021
+5358375.338;3;Governmental;4;Southern ;2022
+3019440;4;Industerial;1;Middle;2005
+3269142;4;Industerial;1;Middle;2006
+3748438;4;Industerial;1;Middle;2007
+3503729;4;Industerial;1;Middle;2008
+3859873;4;Industerial;1;Middle;2009
+4506940;4;Industerial;1;Middle;2010
+4852750.5;4;Industerial;1;Middle;2011
+5481000;4;Industerial;1;Middle;2012
+5743221.923;4;Industerial;1;Middle;2013
+5767831.015;4;Industerial;1;Middle;2014
+6108793.578;4;Industerial;1;Middle;2015
+6331590.169;4;Industerial;1;Middle;2016
+6413659.153;4;Industerial;1;Middle;2017
+6430184.053;4;Industerial;1;Middle;2018
+6938621.629;4;Industerial;1;Middle;2019
+6933934.419;4;Industerial;1;Middle;2020
+7018607.725;4;Industerial;1;Middle;2021
+7894769.187;4;Industerial;1;Middle;2022
+28089814;4;Industerial;2;Eastern;2005
+26567703;4;Industerial;2;Eastern;2006
+23466665;4;Industerial;2;Eastern;2007
+25036647;4;Industerial;2;Eastern;2008
+26773000;4;Industerial;2;Eastern;2009
+29654872;4;Industerial;2;Eastern;2010
+32408187.1;4;Industerial;2;Eastern;2011
+30569800;4;Industerial;2;Eastern;2012
+38139948.91;4;Industerial;2;Eastern;2013
+38942598.71;4;Industerial;2;Eastern;2014
+32411721.01;4;Industerial;2;Eastern;2015
+33276929.18;4;Industerial;2;Eastern;2016
+34355257.89;4;Industerial;2;Eastern;2017
+36756391.24;4;Industerial;2;Eastern;2018
+35331676.08;4;Industerial;2;Eastern;2019
+36397046.58;4;Industerial;2;Eastern;2020
+35779123.33;4;Industerial;2;Eastern;2021
+35777149.48;4;Industerial;2;Eastern;2022
+2595075;4;Industerial;3;Western;2005
+2603527;4;Industerial;3;Western;2006
+3313805;4;Industerial;3;Western;2007
+3770074;4;Industerial;3;Western;2008
+3750374;4;Industerial;3;Western;2009
+4286143;4;Industerial;3;Western;2010
+4700709.1;4;Industerial;3;Western;2011
+5356900;4;Industerial;3;Western;2012
+6511154.666;4;Industerial;3;Western;2013
+5856464.412;4;Industerial;3;Western;2014
+5815722.93;4;Industerial;3;Western;2015
+6134085.401;4;Industerial;3;Western;2016
+5885153.189;4;Industerial;3;Western;2017
+7247292.721;4;Industerial;3;Western;2018
+6607871.469;4;Industerial;3;Western;2019
+6242513.591;4;Industerial;3;Western;2020
+6648204.703;4;Industerial;3;Western;2021
+7609205.156;4;Industerial;3;Western;2022
+96250;4;Industerial;4;Southern ;2005
+108106;4;Industerial;4;Southern ;2006
+105685;4;Industerial;4;Southern ;2007
+110086;4;Industerial;4;Southern ;2008
+270980;4;Industerial;4;Southern ;2009
+120751;4;Industerial;4;Southern ;2010
+167063.1;4;Industerial;4;Southern ;2011
+303600;4;Industerial;4;Southern ;2012
+685738.319;4;Industerial;4;Southern ;2013
+931691.5745;4;Industerial;4;Southern ;2014
+797974.8254;4;Industerial;4;Southern ;2015
+756774.167;4;Industerial;4;Southern ;2016
+576292.0464;4;Industerial;4;Southern ;2017
+713655.3141;4;Industerial;4;Southern ;2018
+557493.2079;4;Industerial;4;Southern ;2019
+1188510.692;4;Industerial;4;Southern ;2020
+1808854.15;4;Industerial;4;Southern ;2021
+1579081.32;4;Industerial;4;Southern ;2022
+25109641;5;Residential;1;Middle;2005
+27476518;5;Residential;1;Middle;2006
+28928580;5;Residential;1;Middle;2007
+31697666;5;Residential;1;Middle;2008
+31764090;5;Residential;1;Middle;2009
+34836233;5;Residential;1;Middle;2010
+37042068;5;Residential;1;Middle;2011
+39579900;5;Residential;1;Middle;2012
+39579812.17;5;Residential;1;Middle;2013
+44155475.66;5;Residential;1;Middle;2014
+48496158.57;5;Residential;1;Middle;2015
+47451818.49;5;Residential;1;Middle;2016
+48187135.62;5;Residential;1;Middle;2017
+43004597.48;5;Residential;1;Middle;2018
+42064993.24;5;Residential;1;Middle;2019
+46388998.11;5;Residential;1;Middle;2020
+48701234.47;5;Residential;1;Middle;2021
+49467780.03;5;Residential;1;Middle;2022
+15229332;5;Residential;2;Eastern;2005
+16981861;5;Residential;2;Eastern;2006
+17328279;5;Residential;2;Eastern;2007
+18569845;5;Residential;2;Eastern;2008
+19401996;5;Residential;2;Eastern;2009
+20993203;5;Residential;2;Eastern;2010
+21310629.1;5;Residential;2;Eastern;2011
+23545600;5;Residential;2;Eastern;2012
+23230420.26;5;Residential;2;Eastern;2013
+25866944.44;5;Residential;2;Eastern;2014
+28132248.14;5;Residential;2;Eastern;2015
+26926413.72;5;Residential;2;Eastern;2016
+27619486.93;5;Residential;2;Eastern;2017
+25189240.32;5;Residential;2;Eastern;2018
+25019012.44;5;Residential;2;Eastern;2019
+27033414.02;5;Residential;2;Eastern;2020
+27142485.4;5;Residential;2;Eastern;2021
+27945381.01;5;Residential;2;Eastern;2022
+29787193;5;Residential;3;Western;2005
+32321910;5;Residential;3;Western;2006
+33693560;5;Residential;3;Western;2007
+35961379;5;Residential;3;Western;2008
+38206816;5;Residential;3;Western;2009
+40465394;5;Residential;3;Western;2010
+38736551.2;5;Residential;3;Western;2011
+43615800;5;Residential;3;Western;2012
+47561823.09;5;Residential;3;Western;2013
+47468304.68;5;Residential;3;Western;2014
+50728853.7;5;Residential;3;Western;2015
+51567975.29;5;Residential;3;Western;2016
+49935414.13;5;Residential;3;Western;2017
+45874487.11;5;Residential;3;Western;2018
+44575740.43;5;Residential;3;Western;2019
+45782285.07;5;Residential;3;Western;2020
+47292651.4;5;Residential;3;Western;2021
+46053776.5;5;Residential;3;Western;2022
+8177747;5;Residential;4;Southern ;2005
+9247978;5;Residential;4;Southern ;2006
+9952665;5;Residential;4;Southern ;2007
+10458169;5;Residential;4;Southern ;2008
+11459478;5;Residential;4;Southern ;2009
+12332642;5;Residential;4;Southern ;2010
+12172199.1;5;Residential;4;Southern ;2011
+13504400;5;Residential;4;Southern ;2012
+15306034.39;5;Residential;4;Southern ;2013
+16412999.82;5;Residential;4;Southern ;2014
+16683439.02;5;Residential;4;Southern ;2015
+17266717.67;5;Residential;4;Southern ;2016
+17312694.26;5;Residential;4;Southern ;2017
+15916069.11;5;Residential;4;Southern ;2018
+16480977.57;5;Residential;4;Southern ;2019
+18070369.46;5;Residential;4;Southern ;2020
+18978754.09;5;Residential;4;Southern ;2021
+18982981.2;5;Residential;4;Southern ;2022
+2186793;6;Others;1;Middle;2005
+2431666;6;Others;1;Middle;2006
+2604606;6;Others;1;Middle;2007
+2530461;6;Others;1;Middle;2008
+2507486;6;Others;1;Middle;2009
+2826389;6;Others;1;Middle;2010
+2944333.2;6;Others;1;Middle;2011
+3045000;6;Others;1;Middle;2012
+3143952.65;6;Others;1;Middle;2013
+3640634.242;6;Others;1;Middle;2014
+4199537.593;6;Others;1;Middle;2015
+4247069.458;6;Others;1;Middle;2016
+4380588.354;6;Others;1;Middle;2017
+5191912.628;6;Others;1;Middle;2018
+4522209.582;6;Others;1;Middle;2019
+4044622.099;6;Others;1;Middle;2020
+4075710.071;6;Others;1;Middle;2021
+4003095.959;6;Others;1;Middle;2022
+921272;6;Others;2;Eastern;2005
+993476;6;Others;2;Eastern;2006
+1387715;6;Others;2;Eastern;2007
+1213545;6;Others;2;Eastern;2008
+1248038;6;Others;2;Eastern;2009
+1318003.3;6;Others;2;Eastern;2010
+1254390.9;6;Others;2;Eastern;2011
+1425400;6;Others;2;Eastern;2012
+1387568.957;6;Others;2;Eastern;2013
+1499023.842;6;Others;2;Eastern;2014
+1694709.048;6;Others;2;Eastern;2015
+1736945.433;6;Others;2;Eastern;2016
+1909509.22;6;Others;2;Eastern;2017
+2400719.468;6;Others;2;Eastern;2018
+2307050.864;6;Others;2;Eastern;2019
+2046812.812;6;Others;2;Eastern;2020
+1984269.508;6;Others;2;Eastern;2021
+2298074.17;6;Others;2;Eastern;2022
+2016908;6;Others;3;Western;2005
+2021360;6;Others;3;Western;2006
+2237958;6;Others;3;Western;2007
+2321718;6;Others;3;Western;2008
+2596702;6;Others;3;Western;2009
+2645648.1;6;Others;3;Western;2010
+2503926.9;6;Others;3;Western;2011
+2819700;6;Others;3;Western;2012
+3056279.969;6;Others;3;Western;2013
+3194896.899;6;Others;3;Western;2014
+3486365.174;6;Others;3;Western;2015
+3617422.592;6;Others;3;Western;2016
+3586162.948;6;Others;3;Western;2017
+3712893.917;6;Others;3;Western;2018
+3762212.205;6;Others;3;Western;2019
+3082148.404;6;Others;3;Western;2020
+3250787.805;6;Others;3;Western;2021
+3229723.116;6;Others;3;Western;2022
+634697;6;Others;4;Southern ;2005
+668954;6;Others;4;Southern ;2006
+602525;6;Others;4;Southern ;2007
+639150;6;Others;4;Southern ;2008
+718432;6;Others;4;Southern ;2009
+832726.1;6;Others;4;Southern ;2010
+854616.8;6;Others;4;Southern ;2011
+951900;6;Others;4;Southern ;2012
+1168090.094;6;Others;4;Southern ;2013
+1318470.42;6;Others;4;Southern ;2014
+1438389.157;6;Others;4;Southern ;2015
+1485740.304;6;Others;4;Southern ;2016
+1568171.892;6;Others;4;Southern ;2017
+1775371.747;6;Others;4;Southern ;2018
+1950953.355;6;Others;4;Southern ;2019
+1673059.851;6;Others;4;Southern ;2020
+1774235.939;6;Others;4;Southern ;2021
+1767469.203;6;Others;4;Southern ;2022
