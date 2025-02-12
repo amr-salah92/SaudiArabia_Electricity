@@ -104,10 +104,14 @@ The dataset consists of **432 records spanning 18 years**, with the following at
 - **Impact**: Reduce peak summer electricity demand and improve energy independence.
 - **Example**: Germany’s solar incentives led to widespread adoption and lower summer peaks.
 
-## Technical Implementation
+### Technical Implementation
 
-- **Data Cleaning**: Performed in Excel, handling missing values and ensuring trend consistency.
-- **Visualization**: Created interactive dashboards in Tableau to analyze sectoral and regional consumption.Link[https://public.tableau.com/app/profile/amr.salah6779/viz/electricity_17392262053380/Dashboard1]
+## Data Cleaning
+Performed in Excel, handling missing values and ensuring trend consistency.
+
+## Visualization
+Created interactive dashboards in Tableau to analyze sectoral and regional consumption. [View the dashboard](https://public.tableau.com/app/profile/amr.salah6779/viz/electricity_17392262053380/Dashboard1)
+
 
 ## Assumptions & Limitations
 
