@@ -18,98 +18,104 @@
 
 ---
 
-## Project Name
+## Introduction
 
-**Saudi Electricity Consumption Analysis: Regional & Seasonal Trends**
+This repository contains an analysis of Saudi Arabia's electricity consumption trends from **2005 to 2022**. The objective is to understand consumption patterns across different sectors and regions, enabling data-driven recommendations for energy efficiency and sustainability.
 
-## Project Background
+## Background
 
-The Saudi Electricity Company (SEC), established in 2000 through the merger of various regional electricity companies, is the primary entity responsible for the generation, transmission, and distribution of electric power in the Kingdom of Saudi Arabia. Operating within the utilities sector, SEC has played a pivotal role in supporting the nation's rapid economic growth and urbanization. As of 2024, SEC manages an installed generation capacity exceeding 80,000 megawatts, serving over 10 million customers across residential, commercial, industrial, and governmental sectors. The company's business model encompasses vertically integrated operations, including power generation from diverse energy sources, extensive transmission networks spanning vast geographical areas, and comprehensive distribution systems ensuring reliable electricity delivery to end-users. Key performance metrics indicate a consistent annual growth rate of approximately 6% in electricity demand over the past decade, with peak load demand reaching 62,000 megawatts in the summer months. SEC's strategic initiatives focus on enhancing grid reliability, integrating renewable energy sources, and implementing advanced metering infrastructure to optimize operational efficiency and customer service.
+Saudi Electricity Company (SEC) is the leading power provider in Saudi Arabia, supplying electricity to over **10 million customers** across residential, commercial, industrial, and governmental sectors. Electricity demand has grown significantly due to urbanization, economic expansion, and industrialization, reaching **299 million megawatts in 2022** from **153 million megawatts in 2005**.
 
-## Project Goals
+## Objectives
 
-As data analysts within SEC, our objective is to conduct a comprehensive analysis of regional electricity consumption patterns across Saudi Arabia. This analysis aims to identify trends, anomalies, and potential areas for efficiency improvements. By examining consumption data segmented by year, consumption type, and subregion, we seek to:
+- Analyze sector-wise electricity consumption trends.
+- Identify regional consumption patterns and long-term trends.
+- Provide actionable insights for energy optimization and policy planning.
+- Support infrastructure development through data-driven analysis.
 
-- Understand regional disparities in electricity usage to inform infrastructure investment decisions.
-- Assess the effectiveness of demand-side management programs by analyzing consumption trends across different sectors.
-- Identify peak demand periods and regions with the highest growth rates to enhance load forecasting accuracy.
-- Provide actionable insights to support the integration of renewable energy sources and the development of targeted energy efficiency initiatives.
+## Data Overview
 
-## Data Structure & Initial Checks
+The dataset consists of **432 records spanning 18 years**, with the following attributes:
 
-The primary dataset for this analysis is sourced from the DataSaudi platform, specifically the "Electricity Consumption by Subregion" dataset. The dataset comprises detailed records of electricity consumption measured in megawatts, categorized by year, consumption type, and subregion. The data spans multiple years, providing a temporal perspective on consumption patterns.
+- **Megawatts**: Electricity consumption in megawatts.
+- **Consumption Type**: Categorized into Residential, Industrial, Commercial, Governmental, and Agricultural.
+- **Subregion**: Geographical classification of consumption.
+- **Year**: The year of recorded electricity consumption.
 
-### Data Breakdown
+## Key Findings
 
-**SAMA Electricity Consumption Dataset:**
-- **Year:** Time period of electricity consumption.
-- **Consumption Type:** Category of electricity use.
-- **Subregion:** Geographic classification.
-- **Megawatts:** Total consumption in MW.
+- **Total electricity consumption nearly doubled from 2005 to 2022.**
+- **Western and Middle regions dominated residential electricity demand.**
+- **The Eastern region led industrial consumption due to large-scale industries.**
+- **Post-pandemic commercial energy consumption surged in 2022.**
+- **Agricultural electricity consumption remained the lowest, with minimal growth.**
 
-**GASTAT Dwelling Electrical Energy Consumption Dataset:**
-- **Year:** Time period of electricity consumption.
-- **Province:** Regional classification.
-- **Subregion:** Geographic classification.
-- **Season:** Seasonal consumption segmentation.
-- **Consumption:** Total electricity consumption (MW).
-- **Cost:** Associated cost of electricity.
+## Detailed Insights
 
-## Executive Summary
+### Residential Consumption
 
-Our analysis of regional electricity consumption in Saudi Arabia reveals significant disparities across different subregions and consumption types. Notably, the Riyadh region accounts for the highest proportion of residential electricity consumption, reflecting its dense population and urban infrastructure. In contrast, the Eastern Region exhibits substantial industrial electricity usage, aligning with its concentration of industrial activities. Over the analyzed period, there is a discernible upward trend in overall electricity consumption, with peak demand consistently occurring during the summer months, attributable to increased cooling requirements. These insights underscore the necessity for region-specific energy policies and targeted demand-side management strategies to ensure sustainable and efficient electricity utilization.
+- The **Western region recorded the highest residential electricity consumption**, peaking at **51.6 million megawatts in 2016**.
+- **Middle region saw substantial growth from 2019 to 2022**, driven by population growth and urban expansion.
+- **Extreme climate conditions contribute significantly** to high electricity demand for cooling systems.
 
-## Insights Deep Dive
+### Industrial Consumption
 
-### Category 1: Regional Consumption Trends
+- **62% increase in industrial electricity usage from 2005 to 2022.**
+- The **Eastern region led industrial consumption**, particularly in **2014**, reflecting major industrial expansion.
+- Growth is linked to **petrochemical and manufacturing sector development**.
+- Government-backed industrialization policies contributed to rising demand.
 
-- **Insight 1:** In 2022, the Riyadh region consumed approximately 28.1% of the nation's total residential electricity, underscoring its status as the most populous and urbanized area in Saudi Arabia.
-- **Insight 2:** The Eastern Region, known for its industrial base, accounted for 16.7% of the country's residential electricity consumption in 2022, indicating a significant contribution to the national energy demand.
-- **Insight 3:** Certain provinces, such as Al-Riyadh, consistently show the highest electricity consumption.
-- **Insight 4:** Industrial and urban centers contribute significantly to overall demand.
-- **Insight 5:** Rural areas demonstrate lower but steadily increasing consumption.
+### Commercial & Governmental Consumption
 
-### Category 2: Seasonal Variations in Consumption
+- **Commercial electricity demand peaked in 2022**, indicating economic recovery post-COVID-19.
+- Governmental energy consumption remained stable, with a peak in **2018 in the Western region**.
+- **Business expansion and infrastructure projects contributed to rising commercial energy consumption.**
+- Case study: **Post-pandemic hospitality sector recovery in Riyadh** led to a **15% increase in electricity consumption (2021-2022).**
 
-- **Insight 1:** Summer months experience peak electricity consumption due to cooling demands.
-- **Insight 2:** The highest recorded temperatures in the Eastern Region were in July, reaching up to 47.3 degrees Celsius, correlating with peak electricity consumption periods.
-- **Insight 3:** Between 2021 and 2022, the Riyadh region experienced a decrease in electricity consumption during winter months by 11.6%, while consumption during the rest of the year decreased by 21.6%.
-- **Insight 4:** The Eastern Region saw an increase in electricity consumption during winter months by 31.7% from 2021 to 2022, with consumption during the rest of the year increasing by 30.7%.
-- **Insight 5:** Rest of the year sees relatively lower consumption, but gradual increases over time.
+### Agricultural & Other Consumption
 
-### Category 3: Cost Analysis by Province and Season
-
-- **Insight 1:** Cost per megawatt varies significantly across provinces and seasons.
-- **Insight 2:** Higher costs align with peak demand periods, especially in summer.
-- **Insight 3:** Urban areas show the highest total electricity expenditure.
-
-### Category 4: Long-term Trends and Forecasts
-
-- **Insight 1:** Electricity consumption has shown an upward trend over the past decade.
-- **Insight 2:** Projected growth in demand indicates the need for energy-efficient policies.
-- **Insight 3:** Investment in renewable energy sources may alleviate high seasonal demand pressures.
+- **Agriculture sector had the lowest electricity demand**, with **52,342 megawatts recorded in 2005**.
+- **Minimal growth over time** due to outdated irrigation systems and limited adoption of energy-efficient technologies.
+- **Solar-powered irrigation presents an opportunity** for sustainable energy use in the agricultural sector.
 
 ## Recommendations
 
-Based on the insights derived from the analysis, we recommend the following actions:
+### 1. Enhance Residential Energy Efficiency Programs
+- **Action Plan**: Implement smart meters, promote energy-efficient appliances, and conduct awareness campaigns.
+- **Impact**: Reduce peak demand and lower household electricity bills.
+- **Example**: Dubai’s smart home program cut residential energy consumption by **10%**.
 
-- **Enhance Energy Efficiency Programs:** Implement targeted energy efficiency initiatives in the Riyadh region to manage residential consumption, focusing on promoting energy-efficient appliances and building practices.
-- **Industrial Energy Audits:** Conduct comprehensive energy audits in the Eastern Region's industrial sector to identify opportunities for reducing electricity consumption and improving process efficiencies.
-- **Demand Response Strategies:** Develop and implement demand response programs during peak summer months to alleviate grid stress, encouraging consumers to shift non-essential usage to off-peak periods.
-- **Renewable Energy Integration:** Prioritize the integration of renewable energy sources, such as solar power, in regions with high consumption growth rates to diversify the energy mix and enhance sustainability.
-- **Implement Demand-Side Management Strategies:** Reduce peak loads by promoting energy-efficient appliances and practices in high-demand regions.
-- **Expand Renewable Energy Investments:** Offset seasonal electricity spikes by investing in renewable energy sources.
-- **Enhance Grid Infrastructure:** Support growing demand efficiently by improving grid infrastructure.
+### 2. Promote Industrial Energy Optimization
+- **Action Plan**: Encourage adoption of energy-efficient machinery and conduct regular audits.
+- **Impact**: Reduce operational costs and enhance industrial competitiveness.
+- **Example**: Japan’s Top Runner Program improved industrial energy efficiency significantly.
 
-## Technical Details
+### 3. Support Renewable Energy Adoption in Agriculture
+- **Action Plan**: Provide subsidies for solar irrigation and launch pilot projects.
+- **Impact**: Lower electricity costs and increase sustainability.
+- **Example**: India’s PM-KUSUM scheme improved agricultural productivity through solar energy.
 
-For this analysis, we utilized Excel and Tableau. Here is the link to the interactive Tableau dashboard: [Tableau Dashboard](https://public.tableau.com/app/profile/amr.salah6779/viz/electricity_17392262053380/Dashboard1#1). These tools were used for data cleaning, transformation, analysis, and visualization.
+### 4. Introduce Incentives for High-Demand Regions
+- **Action Plan**: Offer rebates for energy-efficient appliances and impose stricter building regulations.
+- **Impact**: Reduce regional energy imbalances and unnecessary consumption.
 
-## Assumptions and Caveats
+### 5. Encourage Solar Panel Installation in High-Consumption Areas
+- **Action Plan**: Provide incentives for residential and commercial solar installations.
+- **Impact**: Reduce peak summer electricity demand and improve energy independence.
+- **Example**: Germany’s solar incentives led to widespread adoption and lower summer peaks.
 
-1. **Data Completeness:** Assumes the dataset provided is complete and representative of actual electricity consumption patterns.
-2. **Time Frame:** The analysis is based on the available data spanning multiple years, providing a historical perspective but may not account for recent changes or future projections.
-3. **Causal Relationships:** Identified trends and correlations do not imply causation. Further analysis may be required to establish causal links.
-4. **External Factors:** External factors such as economic conditions, policy changes, and technological advancements may impact electricity consumption patterns and are not explicitly accounted for in this analysis.
+## Technical Implementation
 
-This analysis provides a comprehensive overview of regional electricity consumption patterns in Saudi Arabia, offering actionable insights to inform strategic decision-making and enhance operational efficiency within the Saudi Electricity Company.
+- **Data Cleaning**: Performed in Excel, handling missing values and ensuring trend consistency.
+- **Visualization**: Created interactive dashboards in Tableau to analyze sectoral and regional consumption.
+
+## Assumptions & Limitations
+
+- Missing data for certain years were estimated using historical trends.
+- Minor consumption records (<1% of total) were excluded to maintain focus on significant trends.
+- Consumption classifications follow SEC’s standard categorization.
+
+---
+
+This repository provides **data-driven insights and strategic recommendations for optimizing electricity consumption** in Saudi Arabia. By leveraging advanced analytics, policymakers and industry leaders can implement effective energy efficiency measures and promote sustainable practices.
+
