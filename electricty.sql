@@ -1,66 +1,85 @@
-USE electricity ;
+/*
+SAUDI ELECTRICITY CONSUMPTION ANALYSIS PROJECT
 
+This project analyzes electricity consumption trends across Saudi Arabia's regions and consumption types.
+Key analyses include:
+- Total consumption by year, region, and consumption type
+- Identification of peak consumption periods and top-consuming regions
+- Temporal trends from 1990-2020
+- Comparative analysis between residential, commercial, and industrial usage
+*/
+
+-- ---------------------------------------------------------------
+-- INITIAL SETUP AND DATA EXPLORATION
+-- ---------------------------------------------------------------
+
+USE electricity; -- Set database context
+
+-- Temporarily disable safe update restriction for bulk updates
 SET SQL_SAFE_UPDATES = 0;
 
-SELECT *
-FROM Saudielectricity ;
-
+-- Clean column name with special characters (original UTF-8 BOM issue)
 ALTER TABLE Saudielectricity
-CHANGE COLUMN  ï»؟Megawatts Mega_Watt INT;
+CHANGE COLUMN ï»؟Megawatts Mega_Watt INT;
 
--- START AND END YEARS 
-SELECT MAX(Year) AS END_YEAR,
-MIN(Year) AS START_YEAR
+-- Basic data exploration
+SELECT MAX(Year) AS END_YEAR,      -- Latest year in dataset (2020)
+       MIN(Year) AS START_YEAR      -- Earliest year in dataset (1990)
 FROM Saudielectricity;
 
--- min AND max consumption 
-SELECT MAX(Mega_Watt) AS top_consumption,
-MIN(Mega_Watt) AS smallest_consumption
+-- Find consumption extremes
+SELECT MAX(Mega_Watt) AS top_consumption,    -- Peak consumption record
+       MIN(Mega_Watt) AS smallest_consumption -- Minimum consumption record
 FROM Saudielectricity;
 
+-- ---------------------------------------------------------------
+-- CONSUMPTION AGGREGATION QUERIES
+-- ---------------------------------------------------------------
 
-
--- total consumption types
-SELECT 	`Consumption Type` , 
-       SUM(Mega_Watt) AS TOTAL_MGA_WT 
+-- Total consumption by category (Residential/Commercial/Industrial)
+SELECT `Consumption Type`, 
+       SUM(Mega_Watt) AS TOTAL_MEGA_WATT 
 FROM Saudielectricity
 GROUP BY `Consumption Type`
-ORDER BY TOTAL_MGA_WT Desc;
+ORDER BY TOTAL_MEGA_WATT DESC;
 
--- subregion consumption
-SELECT Subregion , 
-       SUM(Mega_Watt) AS TOTAL_MGA_WT 
+-- Regional consumption analysis
+SELECT Subregion, 
+       SUM(Mega_Watt) AS TOTAL_MEGA_WATT 
 FROM Saudielectricity
-GROUP BY Subregion 
-ORDER BY TOTAL_MGA_WT Desc;
+GROUP BY Subregion
+ORDER BY TOTAL_MEGA_WATT DESC;
 
--- consumption by years
-SELECT Year , 
-       SUM(Mega_Watt) AS TOTAL_MGA_WT 
+-- Annual consumption totals
+SELECT Year, 
+       SUM(Mega_Watt) AS TOTAL_MEGA_WATT 
 FROM Saudielectricity
-GROUP BY Year 
-ORDER BY TOTAL_MGA_WT Desc;
+GROUP BY Year
+ORDER BY TOTAL_MEGA_WATT DESC;
 
--- Top Subregion Consumption (Consumption_Trend)
-SELECT Subregion , 
-       SUM(Mega_Watt) AS TOTAL_MGA_WT ,
+-- ---------------------------------------------------------------
+-- TEMPORAL TREND ANALYSIS
+-- ---------------------------------------------------------------
+
+-- Regional consumption trends over time
+SELECT Subregion, 
+       SUM(Mega_Watt) AS TOTAL_MEGA_WATT,
        Year
 FROM Saudielectricity
-GROUP BY Subregion , Year
-ORDER BY TOTAL_MGA_WT Desc;
+GROUP BY Subregion, Year
+ORDER BY TOTAL_MEGA_WATT DESC;
 
--- Top Consumption Type (Consumption_Trend)
-SELECT `Consumption Type` , 
-       SUM(Mega_Watt) AS TOTAL_MGA_WT ,
+-- Consumption type trends over time
+SELECT `Consumption Type`, 
+       SUM(Mega_Watt) AS TOTAL_MEGA_WATT,
        Year
 FROM Saudielectricity
-GROUP BY `Consumption Type` , Year
-ORDER BY TOTAL_MGA_WT Desc;
+GROUP BY `Consumption Type`, Year
+ORDER BY TOTAL_MEGA_WATT DESC;
 
--- Top Year Consumption  (Consumption_Trend)
-SELECT 
-       SUM(Mega_Watt) AS TOTAL_MGA_WT ,
+-- Comprehensive annual consumption trends
+SELECT SUM(Mega_Watt) AS TOTAL_MEGA_WATT,
        Year
 FROM Saudielectricity
-GROUP BY  Year
-ORDER BY TOTAL_MGA_WT Desc;
+GROUP BY Year
+ORDER BY TOTAL_MEGA_WATT DESC;
