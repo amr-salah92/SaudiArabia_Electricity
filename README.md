@@ -49,6 +49,8 @@ The dataset consists of **432 records spanning 18 years**, with the following at
 - **The Eastern region led industrial consumption due to large-scale industries.**
 - **Post-pandemic commercial energy consumption surged in 2022.**
 - **Agricultural electricity consumption remained the lowest, with minimal growth.**
+  
+![Screenshot_19-2-2025_234916_chatgpt com](https://github.com/user-attachments/assets/c1dca3d9-13f0-413c-969a-08f775a2d2ed)
 
 ## Detailed Insights
 
@@ -58,27 +60,18 @@ The dataset consists of **432 records spanning 18 years**, with the following at
 - **Middle region saw substantial growth from 2019 to 2022**, driven by population growth and urban expansion.
 - **Extreme climate conditions contribute significantly** to high electricity demand for cooling systems.
   
-![Dashboard](https://github.com/user-attachments/assets/c89fecb1-c36a-42dc-9bd8-34bed577fce8)
-
 ### Industrial Consumption
 
 - **62% increase in industrial electricity usage from 2005 to 2022.**
 - The **Eastern region led industrial consumption**, particularly in **2014**, reflecting major industrial expansion.
 - Growth is linked to **petrochemical and manufacturing sector development**.
 - Government-backed industrialization policies contributed to rising demand.
-  
-![Dashboard (1)](https://github.com/user-attachments/assets/2d83332f-dcfb-4b2a-9610-ac1c05324f16)
+
 
 ### Commercial & Governmental Consumption
 
-- **Commercial electricity demand peaked in 2022**, indicating economic recovery post-COVID-19.
-  
-  ![Dashboard (2)](https://github.com/user-attachments/assets/16207286-570d-494c-9484-82cae331cda3)
-
+- **Commercial electricity demand peaked in 2022**, indicating economic recovery post-COVID-19.  
 - Governmental energy consumption remained stable, with a peak in **2018 in the Western region**.
-  
-![Dashboard (3)](https://github.com/user-attachments/assets/f6cb26e1-5075-4c27-8ddf-e15f7e3d5f22)
-
 - **Business expansion and infrastructure projects contributed to rising commercial energy consumption.**
 - Case study: **Post-pandemic hospitality sector recovery in Riyadh** led to a **15% increase in electricity consumption (2021-2022).**
 
@@ -88,7 +81,7 @@ The dataset consists of **432 records spanning 18 years**, with the following at
 - **Minimal growth over time** due to outdated irrigation systems and limited adoption of energy-efficient technologies.
 - **Solar-powered irrigation presents an opportunity** for sustainable energy use in the agricultural sector.
   
-![Dashboard (4)](https://github.com/user-attachments/assets/e6fc5390-59d6-434b-9edb-629298ce2ba8)
+
 
 ## Recommendations
 
