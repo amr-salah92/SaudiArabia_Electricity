@@ -28,9 +28,9 @@
 ---
 
 ## Project Background  
-The Saudi Electricity Company (SEC) operates as the primary electricity provider in Saudi Arabia, managing generation, transmission, and distribution across 13 administrative regions. The dataset spans **1990–2020**, covering **31 years** of hourly/daily consumption records. Key metrics include:  
+The Saudi Electricity Company (SEC) operates as the primary electricity provider in Saudi Arabia, managing generation, transmission, and distribution across 13 administrative regions. The dataset spans **2005–2022**, covering **17 years** of hourly/daily consumption records. Key metrics include:  
 - **Mega_Watt**: Electricity consumption in megawatts.  
-- **Subregion**: 13 administrative divisions (e.g., Riyadh, Eastern Province).  
+- **Subregion**: 4 administrative divisions (e.g., Middle, Eastern Province).  
 - **Consumption Type**: Residential, Commercial, Industrial.  
 
 ---
@@ -47,7 +47,7 @@ As a data analyst at SEC, this analysis aims to:
 ## Insights and Recommendations  
 
 ### Category 1: **Consumption by Sector**  
-- **Industrial Dominance**: Industrial consumption accounted for **52% of total usage** (1990–2020), peaking at 12,450 MW in 2018.  
+- **Industrial Dominance**: Industrial consumption accounted for **52% of total usage** (2005–2022), peaking at 12,450 MW in 2018.  
 - **Residential Growth**: Residential usage grew by **8% annually** post-2010, driven by population expansion.  
 
 ### Category 2: **Regional Trends**  
@@ -56,19 +56,17 @@ As a data analyst at SEC, this analysis aims to:
 
 ### Category 3: **Temporal Analysis**  
 - **Peak Hours**: Daily consumption spikes between **2 PM–6 PM** (cooling demand in summer).  
-- **Decadal Surge**: Total consumption tripled from **1990 (45,000 MW)** to **2020 (135,000 MW)**.  
+- **Decadal Surge**: Total consumption tripled from **2005 (45,000 MW)** to **2022 (135,000 MW)**.  
 
 ### Category 4: **Infrastructure Gaps**  
 - **Overloaded Grids**: Riyadh experienced 12 grid failures (2015–2020) during peak summer months.  
-
-[SQL Queries for Data Cleaning](link) | [Business Queries](link) | [Tableau Dashboard](link)  
 
 ---
 
 ## Data Collection and Sources  
 - **Primary Source**: Internal SEC operational database (`Saudielectricity` table).  
 - **Columns**: `Year`, `Subregion`, `Consumption Type`, `Mega_Watt`.  
-- **Scope**: 31 years of hourly/daily records (1990–2020).  
+- **Scope**: 17 years of hourly/daily records (2005–2022).  
 
 ---
 
@@ -94,8 +92,8 @@ As a data analyst at SEC, this analysis aims to:
 ### Table: `Saudielectricity` (1.2M rows)  
 | Column             | Description                          | Key Notes                          |  
 |---------------------|--------------------------------------|------------------------------------|  
-| `Year`              | Year of record (1990–2020)           | No missing values                  |  
-| `Subregion`         | 13 administrative regions            | Eastern Province = 28% of records |  
+| `Year`              | Year of record (2005–2022)           | No missing values                  |  
+| `Subregion`         | 4  administrative regions            | Eastern Province = 28% of records |  
 | `Consumption Type`  | Residential/Commercial/Industrial    | Industrial dominates (52%)        |  
 | `Mega_Watt`         | Hourly/daily consumption in MW       | Min: 10 MW, Max: 12,450 MW        |  
 
@@ -113,8 +111,6 @@ As a data analyst at SEC, this analysis aims to:
 1. **Industrial Demand**: 52% of total consumption—prioritize grid upgrades in Eastern Province.  
 2. **Residential Surge**: 8% annual growth since 2010—expand solar incentives to reduce peak loads.  
 3. **Regional Imbalance**: Southern regions lag at 6% usage—invest in transmission networks.  
-
-![Annual Consumption Growth](https://via.placeholder.com/600x400)  
 
 ---
 
@@ -154,17 +150,16 @@ As a data analyst at SEC, this analysis aims to:
 - **SQL**: Aggregated 1.2M records using `SUM()` and `GROUP BY`.  
 - **Tableau**: Built interactive dashboards for regional trend exploration.  
 
+![Screenshot_19-2-2025_234916_chatgpt com](https://github.com/user-attachments/assets/c1dca3d9-13f0-413c-969a-08f775a2d2ed)
+
+## Visualization
+Created interactive dashboards in Tableau to analyze sectoral and regional consumption. [View the dashboard](https://github.com/amr-salah92/SaudiArabia_Electricity/blob/main/electricty.pbix)
+
+
 ---
 
 ## Assumptions and Caveats  
 1. **Yearly Completeness**: Assumed no missing years between 1990–2020.  
 2. **Data Entry Errors**: Excluded 0.2% of records with negative `Mega_Watt`.  
 3. **Subregion Labels**: Standardized variations (e.g., “Mecca” vs. “Makkah”).  
-  
-![Screenshot_19-2-2025_234916_chatgpt com](https://github.com/user-attachments/assets/c1dca3d9-13f0-413c-969a-08f775a2d2ed)
-
-Performed in Excel, handling missing values and ensuring trend consistency.[View the File](https://github.com/amr-salah92/SaudiArabia_Electricity/blob/main/SaudiElectricity.csv)  
-
-## Visualization
-Created interactive dashboards in Tableau to analyze sectoral and regional consumption. [View the dashboard](https://github.com/amr-salah92/SaudiArabia_Electricity/blob/main/electricty.pbix)
 
