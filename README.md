@@ -89,7 +89,7 @@ As a data analyst at SEC, this analysis aims to:
 ---
 
 ## Data Structure & Initial Checks  
-### Table: `Saudielectricity` (1.2M rows)  
+### Table: `Saudielectricity` (422 rows)  
 | Column             | Description                          | Key Notes                          |  
 |---------------------|--------------------------------------|------------------------------------|  
 | `Year`              | Year of record (2005–2022)           | No missing values                  |  
@@ -147,7 +147,7 @@ As a data analyst at SEC, this analysis aims to:
 ---
 
 ## Technical Details  
-- **SQL**: Aggregated 1.2M records using `SUM()` and `GROUP BY`.  
+- **SQL**: Aggregated 422 records using `SUM()` and `GROUP BY`.  
 - **Tableau**: Built interactive dashboards for regional trend exploration.  
 
 ![Screenshot_19-2-2025_234916_chatgpt com](https://github.com/user-attachments/assets/c1dca3d9-13f0-413c-969a-08f775a2d2ed)
