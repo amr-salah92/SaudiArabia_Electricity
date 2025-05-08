@@ -23,22 +23,22 @@
 ---
 
 ## Project Name  
-**Saudi Electricity Company: Regional and Sectoral Consumption Trends Analysis (1990–2020)**  
+**Saudi Electricity Company: Regional and Sectoral Consumption Trends Analysis (2005–2022)**  
 
 ---
 
 ## Project Background  
-The Saudi Electricity Company (SEC) operates as the primary electricity provider in Saudi Arabia, managing generation, transmission, and distribution across 13 administrative regions. The dataset spans **2005–2022**, covering **17 years** of hourly/daily consumption records. Key metrics include:  
+The Saudi Electricity Company (SEC) operates as the primary electricity provider in Saudi Arabia, managing generation, transmission, and distribution across 4 administrative regions. The dataset spans **2005–2022**, covering **17 years** of hourly/daily consumption records. Key metrics include:  
 - **Mega_Watt**: Electricity consumption in megawatts.  
 - **Subregion**: 4 administrative divisions (e.g., Middle, Eastern Province).  
-- **Consumption Type**: Residential, Commercial, Industrial.  
+- **Consumption Type**: Residential, Commercial, Industrial, others , Agriculture
 
 ---
 
 ## Project Goals  
 As a data analyst at SEC, this analysis aims to:  
 1. Identify **peak consumption periods** to optimize grid load management.  
-2. Compare sectoral usage (Residential vs. Commercial vs. Industrial) to prioritize infrastructure investments.  
+2. Compare sectoral usage (Residential vs. Commercial vs. Industrial vs others vs Agriculture) to prioritize infrastructure investments.  
 3. Analyze regional disparities to allocate resources equitably.  
 4. Forecast long-term trends to align with Saudi Arabia’s **Vision 2030** energy sustainability goals.  
 
