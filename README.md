@@ -47,19 +47,16 @@ As a data analyst at SEC, this analysis aims to:
 ## Insights and Recommendations  
 
 ### Category 1: **Consumption by Sector**  
-- **Industrial Dominance**: Industrial consumption accounted for **52% of total usage** (2005–2022), peaking at 12,450 MW in 2018.  
-- **Residential Growth**: Residential usage grew by **8% annually** post-2010, driven by population expansion.  
+- **Residential Dominance**: Residential consumption accounted for **49.5% of total usage** (2005–2022), peaking at 144,040,700 MW in 2015.  
+- **Residential Growth**: Residential usage decline  **annually** from 2016 - 2019 .  
 
 ### Category 2: **Regional Trends**  
-- **Eastern Province**: Highest consumption (28% of total), linked to industrial hubs like Dammam.  
-- **Southern Regions**: Lowest consumption (6%), indicating underdeveloped infrastructure.  
+- **Middle Province**: Highest consumption (30% of total), linked to Residential hubs like Riyadh.  
+- **Southern Regions**: Lowest consumption (9%), indicating underdeveloped infrastructure.  
 
 ### Category 3: **Temporal Analysis**  
 - **Peak Hours**: Daily consumption spikes between **2 PM–6 PM** (cooling demand in summer).  
-- **Decadal Surge**: Total consumption tripled from **2005 (45,000 MW)** to **2022 (135,000 MW)**.  
-
-### Category 4: **Infrastructure Gaps**  
-- **Overloaded Grids**: Riyadh experienced 12 grid failures (2015–2020) during peak summer months.  
+- **Decadal Surge**: Total consumption Nearly Doubled (increase with 94%) from **2005 (153,283,561 MW)** to **2022 (298,701,591 MW)**.    
 
 ---
 
@@ -110,33 +107,40 @@ As a data analyst at SEC, this analysis aims to:
 ## Executive Summary *(For Infrastructure Planning Manager)*  
 1. **Industrial Demand**: 52% of total consumption—prioritize grid upgrades in Eastern Province.  
 2. **Residential Surge**: 8% annual growth since 2010—expand solar incentives to reduce peak loads.  
-3. **Regional Imbalance**: Southern regions lag at 6% usage—invest in transmission networks.  
+3. **Regional Imbalance**: Southern regions consume nearly 9% in comparison with other regions (Nearly 30%).  
 
 ---
 
 ## Insights Deep Dive  
 
 ### Category 1: Sectoral Consumption  
-- **Industrial Peaks**: 12,450 MW in 2018 (oil/gas sector expansion).  
-- **Commercial Growth**: 15% CAGR (2010–2020) due to mall/office developments.  
+- **Industrial Peaks**: 52,860,204 MW in 2022 (oil/gas sector expansion) & peak yoy growth 22.46 (2012 - 2013).  
+- **Commercial Growth**: 155% CAGR (2006–2012) due to mall/office developments.  
 
 ### Category 2: Regional Analysis  
-- **Eastern Province**: 28% share (industrial hubs + population density).  
-- **Najran**: Lowest consumption (2%) due to limited infrastructure.  
+- **Eastern Province**: 30% share (industrial hubs + population density).  
+- **Southern Province**: Lowest consumption (9%) due to limited infrastructure.  
 
 ### Category 3: Temporal Trends  
 - **Summer Peaks**: June–August averages 18% higher than winter.  
-- **2020 Dip**: 5% drop due to COVID-19 lockdowns.  
+- **2019 Dip**: 3.5% drop due to COVID-19 lockdowns.  
 
-### Category 4: Infrastructure  
-- **Grid Failures**: 12 incidents in Riyadh (2015–2020) during heatwaves.  
 
 ---
 
 ## Recommendations  
-1. **Industrial Sector**: Deploy smart grids in Eastern Province to manage load spikes.  
-2. **Residential Sector**: Subsidize solar panels to offset 2 PM–6 PM cooling demand.  
-3. **Southern Regions**: Build substations in Najran to reduce transmission losses.  
+1. **Industrial Sector**: Deploy smart grids in Eastern Province to manage load spikes
+2. Deploy real-time monitoring systems for industrial hubs.
+3. Introduce dynamic pricing models to incentivize off-peak consumption.
+4. Upgrade transformer capacity in high-demand zones.
+3. **Residential Sector**: Subsidize solar panels to offset 2 PM–6 PM cooling demand
+4. Provide financial incentives for rooftop solar installations.
+5. Implement net metering policies to allow excess energy resale.
+6. Develop public awareness campaigns on energy-efficient cooling solutions..  
+5. **Southern Regions**: Build substations in Najran to reduce transmission losses & mitigate the consumption in the other regions
+6. Construct high-capacity substations to support regional growth.
+7. Upgrade transmission lines to minimize energy losses.
+8. Partner with local industries to stimulate demand and justify infrastructure investments.  
 
 ---
 
