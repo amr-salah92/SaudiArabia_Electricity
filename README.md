@@ -1,4 +1,4 @@
-# Saudi Electricity Company: Electricity Consumption Analysis (1990–2020)
+# Saudi Electricity Company: Electricity Consumption Analysis (2005–2022)
 
 ---
 
@@ -37,10 +37,9 @@ The Saudi Electricity Company (SEC) operates as the primary electricity provider
 
 ## Project Goals  
 As a data analyst at SEC, this analysis aims to:  
-1. Identify **peak consumption periods** to optimize grid load management.  
-2. Compare sectoral usage (Residential vs. Commercial vs. Industrial vs others vs Agriculture) to prioritize infrastructure investments.  
-3. Analyze regional disparities to allocate resources equitably.  
-4. Forecast long-term trends to align with Saudi Arabia’s **Vision 2030** energy sustainability goals.  
+1. Compare sectoral usage (Residential vs. Commercial vs. Industrial vs others vs Agriculture) to prioritize infrastructure investments.  
+2. Analyze regional disparities to allocate resources equitably.  
+3. Forecast long-term trends to align with Saudi Arabia’s **Vision 2030** energy sustainability goals.  
 
 ---
 
