@@ -104,7 +104,7 @@ As a data analyst at SEC, this analysis aims to:
 ---
 
 ## Executive Summary *(For Infrastructure Planning Manager)*  
-1. **Industrial Demand**: 52% of total consumption—prioritize grid upgrades in Eastern Province.  
+1. **Residential Demand**: 52% of total consumption—prioritize grid upgrades in Eastern Province.  
 2. **Residential Surge**: 8% annual growth since 2010—expand solar incentives to reduce peak loads.  
 3. **Regional Imbalance**: Southern regions consume nearly 9% in comparison with other regions (Nearly 30%).  
 
