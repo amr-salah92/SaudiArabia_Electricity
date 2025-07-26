@@ -46,8 +46,8 @@ As a data analyst at SEC, this analysis aims to:
 ## Insights and Recommendations  
 
 ### Category 1: **Consumption by Sector**  
-- **Residential Dominance**: Residential consumption accounted for **49.5% of total usage** (2005–2022), peaking at 144,040,700 MW in 2015.  
-- **Residential Growth**: Residential usage decline  **annually** from 2016 - 2019 .  
+- **Residential Dominance**: Residential consumption accounted for **49.5% of total usage** (2005–2022), peaking at 144,212,700 MW in 2016.  
+- **Residential Growth**: Residential usage decline  **annually** from 2005 - 2015 .  
 
 ### Category 2: **Regional Trends**  
 - **Middle Province**: Highest consumption (30% of total), linked to Residential hubs like Riyadh.  
