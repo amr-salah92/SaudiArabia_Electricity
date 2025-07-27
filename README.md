@@ -124,6 +124,78 @@ As a data analyst at SEC, this analysis aims to:
 - **Summer Peaks**: June–August averages 18% higher than winter.  
 - **2019 Dip**: 3.5% drop due to COVID-19 lockdowns.  
 
+---
+
+### Business Questions & Answers: 
+
+#### 🔍 **Sectoral Consumption Analysis**
+1. **Q: Which consumption type dominated electricity usage from 2005–2022?**  
+   **A:** Residential consumption accounted for **49.5%** of total usage (2.16B MW), peaking at 144M MW in 2015.  
+   *Source: Total consumption by type SQL query.*
+
+2. **Q: How did industrial consumption change during oil/gas expansions?**  
+   **A:** Industrial usage surged by **22.46% YoY in 2013** (51M MW), driven by oil/gas sector growth.  
+   *Source: Industrial YoY SQL analysis.*
+
+---
+
+#### 📍 **Regional Consumption Patterns**
+3. **Q: Which region had the highest consumption, and why?**  
+   **A:** The **Middle region** (30.5% share, 1.33B MW), due to Riyadh's residential demand and dense population.  
+   *Source: Regional share SQL query.*
+
+4. **Q: Why did Southern regions lag in consumption?**  
+   **A:** Southern regions consumed only **9.4%** (409M MW), indicating underdeveloped infrastructure and lower economic activity.  
+   *Source: Regional disparities in Executive Summary.*
+
+---
+
+#### ⏳ **Temporal Trends**
+5. **Q: When did daily peak consumption occur?**  
+   **A:** Peaks between **2 PM–6 PM** (cooling demand in summer), with June–August averages **18% higher** than winter.  
+   *Source: Temporal Analysis insights.*
+
+6. **Q: How did COVID-19 impact consumption in 2019?**  
+   **A:** A **3.5% drop** occurred due to lockdowns, reversing prior growth trends.  
+   *Source: 2019 Dip in Insights Deep Dive.*
+
+---
+
+#### 📈 **Growth and Investment Priorities**
+7. **Q: What was the overall consumption growth (2005–2022)?**  
+   **A:** Consumption nearly doubled (**+94%**), from 153M MW (2005) to 299M MW (2022).  
+   *Source: YoY total consumption SQL query.*
+
+8. **Q: Where should SEC prioritize grid upgrades?**  
+   **A:** **Eastern Province** (industrial hubs) and residential zones due to **8% annual residential growth since 2010**.  
+   *Source: Executive Summary recommendations.*
+
+---
+
+#### ⚡ **Operational Insights**
+9. **Q: Which sector showed the fastest historical growth?**  
+   **A:** Commercial consumption grew at **155% CAGR (2006–2012)** from mall/office developments.  
+   *Source: Commercial Growth in Insights Deep Dive.*
+
+10. **Q: How did agriculture consumption trends behave?**  
+    **A:** Volatile YoY changes (e.g., **+46.25% in 2009**, **-28.49% in 2010**), influenced by policy shifts.  
+    *Source: Agriculture YoY SQL analysis.*
+
+---
+
+### 💡 **Strategic Recommendations Summary**
+| **Focus Area**       | **Key Action**                                                                 |
+|----------------------|--------------------------------------------------------------------------------|
+| **Industrial**       | Deploy smart grids in Eastern Province; introduce dynamic pricing.             |
+| **Residential**      | Subsidize solar panels for peak cooling demand (2 PM–6 PM).                    |
+| **Southern Regions** | Build substations in Najran; upgrade transmission lines.                       |
+
+> **Future Work**: Integrate weather data + demographic analysis to refine forecasts.  
+> **Data Caveats**: Excluded 0.2% records with negative MW; standardized region labels.  
+
+*Data Source: SEC operational database (2005–2022, 422 rows).*  
+*Methodology: SQL aggregation (SUM, GROUP BY, YoY window functions) + Tableau dashboards.*
+
 
 ---
 
