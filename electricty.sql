@@ -135,7 +135,71 @@ WHERE `Consumption Type` = 'Residential'
 GROUP BY `Consumption Type`, Year
 ORDER BY Year;
 
--- Repeat above for: 'Commercial', 'Industerial', 'Governmental', 'Agreculture', 'Others'
+
+SELECT 
+    `Consumption Type`, Year,
+    SUM(Mega_Watt) AS Total_Mega_Watt,
+    LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) AS Prev_Year,
+    ROUND(
+        (SUM(Mega_Watt) - LAG(SUM(Mega_Watt)) OVER (ORDER BY Year)) 
+        / LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) * 100, 2
+    ) AS YoY_Change_Percent
+FROM Saudielectricity
+WHERE `Consumption Type` = 'Agreculture'
+GROUP BY `Consumption Type`, Year
+ORDER BY Year;
+
+SELECT 
+    `Consumption Type`, Year,
+    SUM(Mega_Watt) AS Total_Mega_Watt,
+    LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) AS Prev_Year,
+    ROUND(
+        (SUM(Mega_Watt) - LAG(SUM(Mega_Watt)) OVER (ORDER BY Year)) 
+        / LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) * 100, 2
+    ) AS YoY_Change_Percent
+FROM Saudielectricity
+WHERE `Consumption Type` = 'Governmental'
+GROUP BY `Consumption Type`, Year
+ORDER BY Year;
+
+SELECT 
+    `Consumption Type`, Year,
+    SUM(Mega_Watt) AS Total_Mega_Watt,
+    LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) AS Prev_Year,
+    ROUND(
+        (SUM(Mega_Watt) - LAG(SUM(Mega_Watt)) OVER (ORDER BY Year)) 
+        / LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) * 100, 2
+    ) AS YoY_Change_Percent
+FROM Saudielectricity
+WHERE `Consumption Type` = 'Industerial'
+GROUP BY `Consumption Type`, Year
+ORDER BY Year;
+
+SELECT 
+    `Consumption Type`, Year,
+    SUM(Mega_Watt) AS Total_Mega_Watt,
+    LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) AS Prev_Year,
+    ROUND(
+        (SUM(Mega_Watt) - LAG(SUM(Mega_Watt)) OVER (ORDER BY Year)) 
+        / LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) * 100, 2
+    ) AS YoY_Change_Percent
+FROM Saudielectricity
+WHERE `Consumption Type` = 'Commercial'
+GROUP BY `Consumption Type`, Year
+ORDER BY Year;
+
+SELECT 
+    `Consumption Type`, Year,
+    SUM(Mega_Watt) AS Total_Mega_Watt,
+    LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) AS Prev_Year,
+    ROUND(
+        (SUM(Mega_Watt) - LAG(SUM(Mega_Watt)) OVER (ORDER BY Year)) 
+        / LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) * 100, 2
+    ) AS YoY_Change_Percent
+FROM Saudielectricity
+WHERE `Consumption Type` = 'Others'
+GROUP BY `Consumption Type`, Year
+ORDER BY Year;
 
 -- Template for Subregion-specific YoY analysis
 -- Regions: 'Middle', 'Eastern', 'Western', 'Southern '
@@ -154,7 +218,48 @@ WHERE Subregion = 'Eastern'
 GROUP BY Subregion, Year
 ORDER BY Year;
 
--- Repeat above for: 'Middle', 'Western', 'Southern '
+
+
+
+SELECT 
+    Subregion, Year,
+    SUM(Mega_Watt) AS Total_Mega_Watt,
+    LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) AS Prev_Year,
+    ROUND(
+        (SUM(Mega_Watt) - LAG(SUM(Mega_Watt)) OVER (ORDER BY Year)) 
+        / LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) * 100, 2
+    ) AS YoY_Change_Percent
+FROM Saudielectricity
+WHERE Subregion = 'Southern '
+GROUP BY Subregion, Year
+ORDER BY Year;
+
+SELECT 
+    Subregion, Year,
+    SUM(Mega_Watt) AS Total_Mega_Watt,
+    LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) AS Prev_Year,
+    ROUND(
+        (SUM(Mega_Watt) - LAG(SUM(Mega_Watt)) OVER (ORDER BY Year)) 
+        / LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) * 100, 2
+    ) AS YoY_Change_Percent
+FROM Saudielectricity
+WHERE Subregion = 'Western'
+GROUP BY Subregion, Year
+ORDER BY Year;
+
+SELECT 
+    Subregion, Year,
+    SUM(Mega_Watt) AS Total_Mega_Watt,
+    LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) AS Prev_Year,
+    ROUND(
+        (SUM(Mega_Watt) - LAG(SUM(Mega_Watt)) OVER (ORDER BY Year)) 
+        / LAG(SUM(Mega_Watt)) OVER (ORDER BY Year) * 100, 2
+    ) AS YoY_Change_Percent
+FROM Saudielectricity
+WHERE Subregion = 'Middle'
+GROUP BY Subregion, Year
+ORDER BY Year;
+
 
 -- ===============================================================
 -- 5. REGIONAL SHARE OF SPECIFIC CONSUMPTION TYPES BY YEAR
