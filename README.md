@@ -126,7 +126,7 @@ As a data analyst at SEC, this analysis aims to:
 
 ---
 
-### Business Questions & Answers: 
+## Business Questions & Answers: 
 
 #### 🔍 **Sectoral Consumption Analysis**
 1. **Q: Which consumption type dominated electricity usage from 2005–2022?**  
